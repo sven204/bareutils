@@ -3,4 +3,4 @@
 A coreutils written in pure `bash`.
 
 ---
-todo: fold, tac, factor
+To do: `fold`, `tac`, `factor`, `seq` options.
