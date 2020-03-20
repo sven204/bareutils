@@ -25,7 +25,7 @@ else
                printf '%d hours, ' $((minutes_up/60))
            fi
            printf '%d minutes\n' $((minutes_up%60));;
-        ?) echo "$0: invalid option
+        ?) echo "$0: invalid option -- '$options'
 Usage: $0 [-ps]">&2;;
     esac
 fi
