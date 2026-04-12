@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#
+# seq in pure bash.
 
 format=%d
 separator=$'\n'
