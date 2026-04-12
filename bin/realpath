@@ -10,5 +10,5 @@ parent_dir="${file%/*}"
     exit 0
 }
 
-cd "$parent_dir" >&- || exit 1 &&
+cd "$parent_dir" 2>/dev/null || exit 1 &&
     printf '%s\n' "${PWD}/${file##*/}"
